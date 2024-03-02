@@ -51,7 +51,7 @@
 #define NOMINMAX
 #include <vulkan/vulkan.h>
 #else
-#include <vulkan/vulkan.h>
+#include <volk.h>
 #endif
 #if defined(VK_VERSION_1_3) || defined(VK_KHR_dynamic_rendering)
 #define IMGUI_IMPL_VULKAN_HAS_DYNAMIC_RENDERING
